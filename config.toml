@@ -1,0 +1,103 @@
+baseURL = "rustlabs.github.io"
+languageCode = "en-us"
+title = "RustLabs"
+pluralizeListTitles = false
+enableRobotsTXT = true
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableGitInfo = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup.highlight]
+style = "paraiso-dark"
+
+[params]
+description = "Rust - Build Reliable and efficient Software"
+tagline = "100% open source & Hands On Labs "
+versions = ["0.0.1"]
+alpine_js_version = "2.2.5"
+locale = "en_US"
+
+[[params.why]]
+text = "Rust - Relibale Efficient Programing Language "
+src = ""
+
+
+[[params.features]]
+title = "Goals: The goals of Rust Labs are to"
+text = """
+- Make Rust more accessible to new developers
+- Provide a platform for Rust developers to collaborate and share knowledge
+- Promote the Rust programming language
+"""
+
+[[params.features]]
+title = " Features: The features of Rust Labs will include:  "
+text = """
+- A comprehensive tutorial that covers the basics of Rust programming
+- A forum where developers can ask questions and get help
+- A repository of open source Rust projects
+- A blog that features articles about Rust programming
+- A social media presence to connect with Rust developers around the world
+"""
+
+[[params.features]]
+title = "Benefits: The benefits of Rust Labs for Rust developers include:"
+text = """
+- Free access to high-quality Rust resources
+- A community of Rust developers to collaborate with
+- A platform to share knowledge and learn from others
+- The opportunity to contribute to open source Rust projects
+"""
+
+[[params.promo_features]]
+title = "RustLabs"
+text = """
+ Rustify .
+"""
+
+
+[params.social]
+github = "https://github.com/sangam14/"
+discord = "https://discord.gg/rEvr7vq"
+#twitter = "CNCFolks"
+
+[params.logos]
+navbar = "rustlabs-nav.png"
+hero = "rustlabs-logo.png"
+
+
+[outputs]
+home = ["HTML", "REDIRECTS", "RSS"]
+
+[privacy.twitter]
+disable = false
+enableDNT = false
+simple = true
+
+[[params.fonts]]
+name = "Poppins"
+sizes = [300, 400, 500, 700]
+type = "sans_serif"
+
+[[params.fonts]]
+name = "Roboto Mono"
+sizes = [300, 400, 600, 700]
+type = "monospace"
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 1
+
+[[menu.main]]
+name = "Knowledge Base"
+url = "/kb"
+weight = 1
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+
+[outputFormats.REDIRECTS]
+mediaType = "text/netlify"
+baseName = "_redirects"
