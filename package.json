@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "bulma": "^0.8.2"
+  },
+  "dependencies": {
+    "quizdown": "^0.6.0"
   }
 }
