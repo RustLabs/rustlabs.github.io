@@ -7,7 +7,7 @@ weight: 67
 
 The `pub` keyword makes the item public and visible outside its scope.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/module-syntax-pub.png)
+![](/img/diagrams/118.module-syntax-pub.png)
 
 # Privacy Rules 
 
@@ -219,8 +219,21 @@ Hi, you came inside the root function using super
 
 # Quiz 
 
+
+{{<quizdown>}}
+
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
+
 Test your understanding of the pub keyword.
-1. How can you make a call to the function inside module r? <br>
+
+# How can you make a call to the function inside module r? 
 
 ```
 mod r {
@@ -230,43 +243,35 @@ mod r {
 }
 
 ```
-A)
-```
-r :: print_statement()
-```
-B)
-```
-print_statement()
+-[ ] `r :: print_statement()`
 
-```
-
-2. You can invoke a private function directly.<br>
-A) True <br>
-B) False <br>
-
-3. You can invoke a private function through a public function.<br>
-A) True <br> 
-B) False <br> 
-
-4. How can you access a function within the module containing it? <br>
-A)Using `self::function_name( )` <br>
-B)Using `function_name( )` <br>
-C)Using `super :: function_name( )` <br>
-
-5. How can you access a parent module’s private function from a child module’s function?<br>
-A) Using `super :: function_name_parent()`<br>
-B) Using `self :: function_name_parent()`<br>
-C) Using `function_name_parent()`<br>
-
-6.Suppose a function is defined outside of a module. How would you invoke it through a module? <br>
-A) `super :: function_name()`
-B) `self:: function_name()`
+-[ ] `print_statement()`
 
 
+# You can invoke a private function directly.
+- [ ] True 
+- [ ] False 
+
+# You can invoke a private function through a public function.
+- [ ] True  
+- [ ] False  
+
+# How can you access a function within the module containing it? 
+- [ ] Using `self::function_name( )` 
+- [ ] Using `function_name( )` 
+- [ ] Using `super :: function_name( )` 
+
+# How can you access a parent module’s private function from a child module’s function?
+- [ ] Using `super :: function_name_parent()`
+- [ ] Using `self :: function_name_parent()`
+- [ ] Using `function_name_parent()`
+
+# Suppose a function is defined outside of a module. How would you invoke it through a module? 
+- [ ] `super :: function_name()`
+- [ ] `self:: function_name()`
 
 
-
-
+{{</quizdown>}}
 
 
 

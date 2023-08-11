@@ -11,7 +11,7 @@ it is possible to use different data types for different variants of an enum.
 # Syntax 
 - The data type can be added to each variant enclosed within round brackets `()`.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-data-type.png)
+![](/img/diagrams/102.enum-data-type.png)
 
 - Example 
 The following example makes an enum KnightMove having two variants Horizontal and Vertical both of type String.

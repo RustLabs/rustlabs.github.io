@@ -13,7 +13,8 @@ Just like structs, methods are functions specific to enums.
 
 To define methods of `enum` write the functions within the `impl` followed by the `enum` name and then the functions within the `impl` block.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-method.png)
+![](/img/diagrams/103.enum-method.png)
+
 
  - Move `enum` related logic in the `impl` construct
  
@@ -60,7 +61,18 @@ Do we have to stop at signal? - true
 
 Test your understanding of methods of enum in Rust.
 
-1. What is the output of the following code?
+{{<quizdown>}}
+
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
+
+# What is the output of the following code?
 
 ```
 #![allow(dead_code)]
@@ -84,20 +96,14 @@ fn main(){
 
 ```
 
-A)
+- [ ] What is the signal value? - Yellow
+      Do we have to stop at signal? - false
 
-```
-What is the signal value? - Yellow
-Do we have to stop at signal? - false
-```
-B)
-
-```
-What is the signal value? - Red
-Do we have to stop at signal? - true
-```
+- [ ] What is the signal value? - Red
+      Do we have to stop at signal? - true
 
 
+{{</quizdown>}}
 
 
 

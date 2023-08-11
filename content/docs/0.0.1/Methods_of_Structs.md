@@ -23,7 +23,7 @@ Here self is the calling instance, i.e., it is referencing to the struct.
 
 An instance of the struct has to be created to invoke it. This is similar to invoking a struct.
 
-![](/img/diagrams/method-struct-call.png)
+![](/img/diagrams/92.method-struct-call.png)
 
  Why struct method? The main advantage is that all the data related to the instance is put inside the `impl` block rather than putting it in different places.
  
@@ -89,12 +89,25 @@ This is a beginner course: Rust 132
 
 Test your understanding of methods of structs.
 
-1. Which code block has the method enclosed in it? <br>
-A) `impl` <br>
-B) `fn` <br>
+{{<quizdown>}}
+
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
 
 
+# Which code block has the method enclosed in it? 
 
+- [ ] `impl` 
+- [ ] `fn`
+
+
+{{</quizdown>}}
 
 
 

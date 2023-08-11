@@ -3,14 +3,13 @@ title: Generics
 weight: 65
 ---
 
-
 # What Are Data Types?
 
 - Data Type
 
 Rust is a statically typed language, meaning, it must know the type of all variables at compile time.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/data-type.png)
+![](/img/diagrams/112.data-type.png)
 
 # How to Define a Type in Rust?
 
@@ -47,8 +46,8 @@ let variable name : data type  = value ;
 Rust has a couple of types that are considered primitive. That means they are built-in to the language. There are different data types used for different purposes.
 
 The following illustration shows the different primitive data types in Rust:
+![](/img/diagrams/113.data-type-tree.png)
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/data-type-tree.png)
 
 # Scalar Type
 
@@ -59,7 +58,7 @@ They store a single value.
    - Boolean
    - Character
    
- ![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/data_scalar-type.png)
+![](/img/diagrams/114.data_scalar-type.png)
    
 # Compound Type
 
@@ -67,20 +66,31 @@ They group multiple values in one variable. Below is the list of compound types:
 - Array
 - Tuple
 
+{{<quizdown>}}
 
-# Quiz 
-1. Which of the following is a scalar data type? <br> 
-a) Integer <br> 
-b) Float <br>
-c) Tuple <br> 
-d) Array <br> 
-
-
-2. In Rust it is a must to define the type of the variable. <br>
-a) true <br>
-b) false <br> 
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
 
 
+# Which of the following is a scalar data type? <br> 
+- [ ] Integer  
+- [ ] Float 
+- [ ] Tuple  
+- [ ] Array  
+
+
+# In Rust it is a must to define the type of the variable. <br>
+- [ ] true 
+- [ ] false  
+
+
+{{</quizdown>}}
 
 
 

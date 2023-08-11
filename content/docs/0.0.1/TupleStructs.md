@@ -10,7 +10,8 @@ weight: 56
 What Are Tuple Structs? 
 - Tuple Structs are a data type that is a hybrid between a tuple and a struct.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/tuple-struct-ex1.png)
+![](/img/diagrams/95.tuple-struct-ex1.png)
+
 
 Why a tuple struct?
 
@@ -20,17 +21,17 @@ name to each item.
  # Define a Tuple Struct 
 - Tuples can be of type struct by adding the struct keyword before the tuple name, followed by the data type of the variables enclosed within round brackets.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/tuple-struct-syntax.png)
+![](/img/diagrams/96.tuple-struct-syntax.png)
 
 # Initialize a Tuple Struct 
 A tuple struct can be initialized like a tuple.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/tuple-struct-init.png)
+![](/img/diagrams/97.tuple-struct-init.png)
 
 # Access a Tuple Struct 
 The tuple struct can be accessed using a `.` operator like a traditional struct.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/tuple-struct-access.png)
+![](/img/diagrams/98.tuple-struct-access.png)
 
 # Example
 The following example declares a tuple struct named FruitQuantity.
@@ -165,5 +166,4 @@ true
 
 
 ```
-
 

@@ -12,7 +12,7 @@ Structures can have an item that is of type `enum`.
 
 The following illustration explains the syntax:
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-struct.png)
+![](/img/diagrams/105.enum-struct.png)
 
 
 - Example 

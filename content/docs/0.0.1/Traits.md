@@ -16,9 +16,11 @@ Traits are used to define a standard set of behavior for multiple structs.
 They are like interfaces in Java.
 
 Suppose you want to calculate area for different shapes. We know that the area is calculated differently for every shape. The best solution is to make a trait and define an abstract method in it and implement that method within every struct impl construct.
+   
+   
+![](/img/diagrams/109.traits-example.png)
 
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/traits-example.png)
 
 # Types of Methods in Traits 
 
@@ -34,7 +36,7 @@ There can be two types of methods in traits
 
 Traits are written with a trait keyword.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/traits-syntax.png)
+![](/img/diagrams/110.traits-syntax.png)
 
 - Naming Convention
     Name of the trait is written in CamelCase
@@ -43,7 +45,7 @@ Traits are written with a trait keyword.
 
 Traits can be implemented for any structure.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/traits-syntax-impl.png)
+![](/img/diagrams/111.traits-syntax-impl.png)
 
 Example 
 
@@ -130,17 +132,29 @@ Area of Rectangle:4
 
 ```
 # Quiz 
+
+{{<quizdown>}}
+
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
 Test your understanding of traits in Rust.
 
-1. Which of the following trait method allows you to write body of the method? <br>
-A) abstract <br>
-B) concrete <br>
+# Which of the following trait method allows you to write body of the method? <br>
+- [ ] abstract 
+- [ ] concrete 
 
-2. Traits are like interfaces in other object oriented languages. <br>
-A) True <br>
-B) False <br>
+#  Traits are like interfaces in other object oriented languages. <br>
+- [ ] True 
+- [ ] False 
 
 
+{{</quizdown>}}
 
 
 

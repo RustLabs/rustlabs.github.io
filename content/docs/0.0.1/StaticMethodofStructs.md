@@ -11,14 +11,17 @@ weight: 55
 
 The following illustration explains how to declare a static method within the impl construct.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/static-method.png)
+![](/img/diagrams/93.static-method.png)
+
 
 Note: If the construct is declared with an impl keyword, it must have one or both types of methods, static or non-static.
 
 # Invoke a Static Method 
 
 A static method can be invoked by following the struct name with the membership operator:: followed by the method name :
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/call-method.png)
+
+![](/img/diagrams/94.call-method.png)
+
 
 # Example 
 

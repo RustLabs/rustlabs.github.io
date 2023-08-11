@@ -9,8 +9,8 @@ weight: 63
 - What Is Result? 
 
 Result is a built-in enum in the Rust standard library. It has two variants `Ok(T)` and `Err(E)`.
+![](/img/diagrams/107.enum-result.png)
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-result.png)
 
 - Variants:
    - `Ok(T)`, returns the success statement of type `T`
@@ -22,7 +22,7 @@ Result is a built-in enum in the Rust standard library. It has two variants `Ok(
     - Using Result as a function return type can be used to return various kinds of success and error codes to let the calling 
     function decode the execution state of the called function.
     
-    ![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-result1.png)
+   ![](/img/diagrams/108.enum-result1.png)
     
 # Example 1 
 

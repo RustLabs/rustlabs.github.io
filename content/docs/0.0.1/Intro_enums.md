@@ -17,14 +17,15 @@ The key is to enumerate all possible values and select one of the values from th
 - Let’s consider a real life example to understand the concept of enums. The traffic signal can have  
 only three possible states: red, yellow and green for stop, slow down, and go respectively.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/traffic-signal.png)
+![](/img/diagrams/99.traffic-signal.png)
+
 
 # Declare an Enum 
 
 Enums are declared using the enum keyword followed by the name of the enum and then the body of the enum 
 enclosed within curly braces `{` `}`. Within the curly braces, the variants of the enum are defined.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-syntax.png)
+![](/img/diagrams/100.enum-syntax.png)
 
 Naming Convention
 - The name of the enum and it’s variants are written in CamelCase.
@@ -33,8 +34,7 @@ Naming Convention
 # Initialize an Enum 
 
 Enums are initialized using the name of the enum followed by a double colon`(::)` and then specifying the name of the variant of the enum.
-
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-syntax-init.png)
+![](/img/diagrams/101.enum-syntax-init.png)
 
 Note: To print the values of an enum, write `#[derive(Debug)]` at the beginning of the program code. Use the debug `trait{:?}` for printing the variants.
 
@@ -88,7 +88,17 @@ Move 2: Vertical
 
 Test your understanding of basics of enums in Rust.
 
-1. Suppose you have defined an `enum`
+{{<quizdown>}}
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
+
+# Suppose you have defined an `enum`
 
 ```
 enum Move{
@@ -98,19 +108,10 @@ enum Move{
 ```
 How would you call variant `Left` in the `main` function?
 
-A)
-```
-let my_move=Move::Left;
-```
-B)
-```
-let my_move=Move:Left;
-```
+- [ ] `let my_move=Move::Left;`
 
+- [ ] `let my_move=Move:Left;`
 
-
-
-
-
+{{</quizdown>}}
 
 

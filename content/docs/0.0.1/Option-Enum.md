@@ -6,7 +6,9 @@ weight: 62
 # What Is Option? 
 
 Option is a built-in enum in the Rust standard library. It has two variants Some and None.
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/enum-option.png)
+
+![](/img/diagrams/106.enum-option.png)
+
 
 - Variants:
   - Some(T), returns Some value T

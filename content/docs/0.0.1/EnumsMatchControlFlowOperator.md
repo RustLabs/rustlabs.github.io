@@ -9,7 +9,8 @@ The match statement can be used to compare values within an enum. The match stat
 # Syntax 
 The match statement can be written within a function be it main or any other user-defined function.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/match-enum.png)
+![](/img/diagrams/104.match-enum.png)
+
 # Example 
 The example below makes use of a match statement within a `print_direction` function.
 
