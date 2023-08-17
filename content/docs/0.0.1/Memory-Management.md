@@ -50,7 +50,8 @@ Since Vectors and String Objects are resizable, they are stored in a heap.
 
 - The memory on the heap holds the value assigned to the string. Below is the example of string object str which is initialized to Rust.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/rust-heap-syn.png)
+![](/img/diagrams/123.rust-heap-syn.png)
+
 
 Here, ptr is a pointer to the base address of the string str. len is the total length of the string in bytes and capacity is the total amount of memory
 that the operating system has provided to the string.
@@ -61,27 +62,39 @@ that the operating system has provided to the string.
     - Accessing data from the stack is much faster than heap since the processor will take less time to access the data that is closer to the other data.
     
 # Quiz 
+
+{{<quizdown>}}
+Test your understanding of nested modules, the use keyword and the globe operator `*`!
+
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
+
 Test your understanding of stack and heap.
 
-1. Primitive variables ae stored on: <br>
-A) Stack <br>
-B) Heap <br>
+# Primitive variables ae stored on: 
+- [ ] Stack 
+- [ ] Heap 
 
-2. Non-primitive variables are stored on:<br>
-A) Stack <br>
-B) Heap <br>
+# Non-primitive variables are stored on:
+- [ ] Stack 
+- [ ] Heap 
 
-3. Which of the following allows unknown data size storage?<br>
-A) Stack <br>
-B) Heap <br>
+# Which of the following allows unknown data size storage?
+- [ ] Stack 
+- [ ] Heap 
 
-4. The known data size is stored on:<br>
-A) Stack <br>
-B) Heap <br>
-
-
+# The known data size is stored on:
+- [ ] Stack 
+- [ ] Heap 
 
 
+{{</quizdown>}}
 
 
 

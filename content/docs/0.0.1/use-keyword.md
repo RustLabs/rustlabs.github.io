@@ -6,7 +6,8 @@ weight: 69
 
 # The 'use' Keyword
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/use-keyword.png)
+![](/img/diagrams/121.use-keyword.png)
+
 
 ## Why Use the use Keyword?
 The benefit is greatest when items in the same module need to be referred to in the code again and again.
@@ -42,7 +43,7 @@ Hi, I'm a 3rd level nested function
 
 # Glob Operator `( * )`
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/glob-operator.png)
+![](/img/diagrams/122.glob-operator.png)
 
 The glob operator helps you to prevent writing `EnumName::variant` when assigning enum value to a variable.
 
@@ -91,13 +92,25 @@ Vertical
 
 # Quiz 
 
+{{<quizdown>}}
 Test your understanding of nested modules, the use keyword and the globe operator `*`!
 
-1. You can only nest the modules upto three levels. <br>
-A) True <br>
-B) False <br>
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
 
-2. The followinng enum is declared
+
+
+# You can only nest the modules upto three levels.
+- [ ] True 
+- [ ] False 
+
+# The followinng enum is declared
 ```
 enum Gender {
     Male, Female
@@ -105,18 +118,11 @@ enum Gender {
 
 ```
 How would you use the glob operator ?
-A)
+- [ ]  `use Gender :: *`
+- [ ]  `Gender :: *`
 
-```
-use Gender :: *
-```
-B)
 
-```
-Gender :: *
-```
-
-3. What is the output of the following code? <br>
+# What is the output of the following code? 
 
 ```
 pub mod chapter {
@@ -141,14 +147,12 @@ fn main() {
 
 
 ```
-A)
-```
+- [ ] ```
 This is the summary
 Hi, I'm a 3rd level nested function
 ```
-B)
-```
+- [ ] ```
 Hi, I'm a 3rd level nested function
 ```
 
-
+{{</quizdown>}}

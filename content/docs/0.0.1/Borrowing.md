@@ -1,8 +1,6 @@
 ---
-layout: documentation
 title: Borrowing
 weight: 74
-doctype: Rust101
 ---
 
 # Borrowing
@@ -285,11 +283,25 @@ sliced_vec : [1, 2]
 
 Test your understanding of borrowing in Rust.
 
-1. Can a variable have a shared borrow or mutable borrow reference within the same scope? <b>
-A) Yes <b>
-B) No <b>
+{{<quizdown>}}
+Test your understanding of nested modules, the use keyword and the globe operator `*`!
 
-2. Why does this code give an error? <br>
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
+
+Test your understanding of borrowing in Rust.
+
+# Can a variable have a shared borrow or mutable borrow reference within the same scope?
+- [ ] Yes 
+- [ ] No 
+
+# Why does this code give an error? 
 
 ```
 fn main() {
@@ -299,12 +311,12 @@ fn main() {
   println!("println!{}", a);
 }
 
-
 ```
-A) Trying to print moved value a <br>
-B) c borrows b <br>
 
-3. Why does this code give an error? <br>
+- [ ] Trying to print moved value a 
+- [ ] c borrows b 
+
+# Why does this code give an error? 
 
 ```
 fn main() {
@@ -315,10 +327,8 @@ fn main() {
 
 
 ```
-A) Variable c is making an invalid access <br>
-B) Variable a is out of scope <br>
-
-
+- [ ] Variable c is making an invalid access <br>
+- [ ]  Variable a is out of scope <br>
 
 
 

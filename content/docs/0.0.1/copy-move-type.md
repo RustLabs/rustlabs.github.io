@@ -1,8 +1,6 @@
 ---
-layout: documentation
 title: Copy Type and Moved Type
 weight: 72
-doctype: Rust101
 ---
  
 # Copy Type and Moved Type
@@ -12,8 +10,8 @@ doctype: Rust101
 - The ownership state of the original variable (whose value is assigned to another variable) is set to copied state.
 This means that the value of the assignee variable is copied to the assigned variable. 
 A copy of the value is created so that the assignee variable gets the ownership of the value but both the variables have their own copies.
-    - Variable assignment in case of [primitive data type](https://rustlabs.kubedaily.com/Beginners/Generics.html#primitive-types) is a copy type.
-    - [pass by value](https://rustlabs.kubedaily.com/Beginners/Pass_by_Value.html) in a function call is an example of copy type
+    - Variable assignment in case of [primitive data type](/Generics.html#primitive-types) is a copy type.
+    - [pass by value](Pass_by_Value.html) in a function call is an example of copy type
     
 ## Why is a primitive type copied?
 
@@ -75,7 +73,7 @@ a:[1, 2, 3] , b:[1, 2, 3]
 # Moved Type 
 
 The ownership state of the original variable (whose value is assigned to another variable) is set to moved.This means that the original variable binding cannot be accessed.
- - Variable assignment in case of Non-primitive types such as [String Object](https://rustlabs.kubedaily.com/Beginners/intro-to-strings.html#string-object-string) and Vectors is a moved type.
+ - Variable assignment in case of Non-primitive types such as [String Object]() and Vectors is a moved type.
  
  
  ## Why is non-primitive type moved?
@@ -168,19 +166,31 @@ a:Rusty , b:Rust
 
 Test your understanding of copied and moved types in Rust!
 
-1. Which of the following are copied types? <br>
-A) Array <br>
-B) f32 <br>
-C) i32 <br> 
-D) Vector <br>
+{{<quizdown>}}
+Test your understanding of nested modules, the use keyword and the globe operator `*`!
 
-2. Which of the following are moved types? <br>
-A) Array <br>
-B) i32 <br>
-C) String <br>
-D) Vector <br>
+---
+primaryColor: steelblue
+secondaryColor: '#e8e8e8'
+textColor: black
+shuffleQuestions: false
+shuffleAnswers: true
+locale: en
+---
 
+# Which of the following are copied types? 
+- [ ] Array 
+- [ ] f32 
+- [ ] i32 
+- [ ] Vector 
 
+# Which of the following are moved types? 
+- [ ] Array 
+- [ ] i32 
+- [ ] String 
+- [ ] Vector 
+
+{{</quizdown>}}
 
 
 

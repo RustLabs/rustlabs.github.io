@@ -1,8 +1,6 @@
 ---
-layout: documentation
 title: lifetimes
 weight: 75
-doctype: Rust101
 ---
 
 
@@ -14,7 +12,8 @@ Lifetimes describes the scope that a reference is valid for.
 Let’s look at a real-life analogy to explain this concept. You are the owner of a book, 
 but you allow other people to use it for some time.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/lifetime-ex.png)
+![](/img/diagrams/128.lifetime-ex.png)
+
 
 - Let’s understand this concept in terms of memory management. Having a reference to a resource that someone else has the ownership of can be complicated.
 For example, imagine this set of operations:
@@ -128,12 +127,12 @@ confused what the lifetime of the variable is. Solution: use the lifetime annota
     - Followed by a small case name, generally a single letter
     
 ## Function With Reference Variable Having a Lifetime
+![](/img/diagrams/129.lifetime-ref-variable.png)
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/lifetime-ref-variable.png)
 
 ## Function With Mutable Reference Variable Having a Lifetime
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/lifetime-mutable-variable.png)
+![](/img/diagrams/130.lifetime-mutable-variable.png)
 
 - Example 
 

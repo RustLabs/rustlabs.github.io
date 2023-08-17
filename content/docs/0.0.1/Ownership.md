@@ -8,7 +8,8 @@ weight: 71
 - What Is Ownership? 
     - Ownership in simple terms means to have possession of something.
     - Let’s look at a real-life analogy to explain this concept. If something belongs to you, you say “It’s mine”.
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/owner-book.png)
+
+    ![](/img/diagrams/124.owner-book.png)
 
     - Similarly, in Rust, variable bindings can have ownership of what they are bound to.
     
@@ -20,20 +21,20 @@ The following are three rules of ownership:
 ## Rule 1 
 
 Each value has a variable binding called its owner.
+   ![](/img/diagrams/125.ownership-rule1.png)
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/ownership-rule1.png)
 
 ## Rule 2 
 
 There can only be one owner at a time.
 
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/ownership-rule2.png)
+![](/img/diagrams/126.ownership-rule2.png)
 
 ## Rule 3 
 
 - When an owner goes out of scope, it does not remain accessible.
     -  When the variable goes out of scope, Rust calls function drop automatically at the closing curly bracket (to deallocate the memory).
-    ![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/ownership-rule3.png)
+  ![](/img/diagrams/127.ownership-rule3.png)
     
  ```
  fn main() {
