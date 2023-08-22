@@ -284,6 +284,7 @@ sliced_vec : [1, 2]
 Test your understanding of borrowing in Rust.
 
 {{<quizdown>}}
+
 Test your understanding of nested modules, the use keyword and the globe operator `*`!
 
 ---
@@ -330,6 +331,7 @@ fn main() {
 - [ ] Variable c is making an invalid access <br>
 - [ ]  Variable a is out of scope <br>
 
+{{</quizdown>}}
 
 
 
