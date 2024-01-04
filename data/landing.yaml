@@ -36,7 +36,7 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "docs/quickstart/"
+    url: "/docs/quickstart/"
   cta2Button:
     icon: chat
     btnText: "CloudNativeFolks Community "
