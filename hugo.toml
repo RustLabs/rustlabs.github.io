@@ -7,7 +7,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
 defaultContentLanguage = 'en'
 [languages]
   [languages.en]
-    title = "Lotus Docs Example Site"
+    title = "RustLabs"
     languageName = "English"
     weight = 10
  
@@ -50,7 +50,7 @@ defaultContentLanguage = 'en'
   mono_font       = "Fira Code" # Default is System font
 
     [params.footer]
-        copyright = "© :YEAR: Lotus Labs. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        copyright = "© :YEAR: CloudNativeFolks Community"
         # version = true # includes git commit info
 
     [params.social]
@@ -60,7 +60,7 @@ defaultContentLanguage = 'en'
         # rss = true                    # show rss icon with link
 
     [params.docs] # Parameters for the /docs 'template'
-        title           = "Lotus Docs Example Site"           # default html title for documentation pages/sections
+        title           = "Learn Rust"           # default html title for documentation pages/sections
 
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 
