@@ -1,14 +1,15 @@
 ---
 title: Hello World
 weight: 2
+icon: "👋"
 page: true
 ---
 
-#### Getting Started with "Hello, World! "
+### Getting Started with "Hello, World! "
 
 It's universal truth everybody starts their journey with the hello world program.
 
-create `hello.rs` file with the following content :
+create ***hello.rs*** file with the following content :
 
 
 ```rust
@@ -27,7 +28,7 @@ fn main() {
 
 rust will automatically start in the main function. function parameter appears inside the parentheses that follow the name of the function. because there is no argument lists in `main()` . the function takes no arguments.
 
-to run this program, you must first use rust compiler, `rustc` to compile the code.
+to run this program, you must first use rust compiler, **rustc** to compile the code.
 
 ```rust
 $ rustc hello.rs
