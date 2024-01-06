@@ -36,11 +36,11 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/quickstart/"
+    url: "https://rustlabs.github.io/docs/"
   cta2Button:
     icon: chat
     btnText: "CloudNativeFolks Community "
-    url: "https://discord.gg/2Y8bQ2Z"
+    url: "https://discord.gg/NQspwGBDVs"
 
   info: "**Open Source** | **Community Driven** "
 
