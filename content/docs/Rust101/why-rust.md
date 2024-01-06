@@ -1,65 +1,68 @@
 ---
 title: Why Rust?
+icon: "❓"
 weight: 1
 ---
 
+Rust continues to top the charts as the most admired and desired language by developers, and we are going to learn deeper into how (and why) with hands on Rust is stealing the hearts of developers around the world.
 
-##### What is Rust?
+> Rust has been said to be named after a particularly robust type of fungi that is “over-engineered for survival,” according to Hoare.
 
-Rust is a language empowering everyone to build reliable and efficient software. rust created by Graydon Hoare and many others around 2006 while Hoare was working at Mozilla Research. It gained enough interest and users that by 2010 Mozilla had sponsored the development efforts
+### What is Rust?
 
-https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages
+Initially designed to offer a more secure option compared to C and C++, Rust is a programming language focused on systems development that has become increasingly popular among programmers. Its primary attributes include an emphasis on safety, efficiency, and productivity. Being a statically typed language, Rust ensures that types for variables and expressions are established and verified during compilation. This approach enhances memory safety and improves error identification, leading to more dependable and reliable software builds
 
 
+Rust is a programming language designed to enable everyone to develop software that is both dependable and efficient. The creation of Rust began with Graydon Hoare and a team of collaborators in 2006, during Hoare's tenure at Mozilla Research. The language captured significant attention and acquired a growing user base, leading to Mozilla's decision in 2010 to officially sponsor its development efforts
 
-##### Why Is Rust Different? <br>
+[Stack Overflow Survey 2023](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
 
+### Why Is Rust Different? 
  - Speed <br>
- - Safety <br>
- - Cargo Manager <br>
- - Error Messages <br>
- - Efficient C Binding <br>
- - Threads without Data Races <br>
-
-
-##### Why Is Rust Different? 
+ - Cargo Package Manager <br>
+ - Error Reporting <br>
+ - Effective C Integration <br>
+ - Fearless Concurrancy without Data Races <br>
+ - Guranteed Memory Safety without Garbage Collection
  
 - There are many reasons why Rust is different from other programming languages.
 
-##### Speed 
+### Speed 
 
-Rust pays no penalty for the abstraction and only pays for the features that are actually used. This improves the code quality and readability without affecting the run time cost.
+Rust's design allows for abstraction without runtime penalties, ensuring that code remains both high-quality and readable. This unique approach ensures efficiency, as runtime costs are incurred only for the specific features employed in the code.
 
-##### Safety 
+### Guranteed Memory Safety without Garbage Collection
 
-- Rust does not have a garbage collector. It ensures memory safety using ownership and its borrowing concept 
+**Ownership and Borrowing for Memory Safety** : Rust ensures memory safety without a garbage collector by utilizing a unique system of ownership and borrowing, controlling how memory is accessed and managed.
 
-- The most significant difference between C, C++, and Rust is writing safe code. 
-- In Rust, the objects are managed by the programming language from the beginning to the end. 
-- The proper amount of memory required is allocated
-and automatically deallocated by the system when it is no longer in use.
+**Safe Code by Design**: Unlike C and C++, Rust is designed to write inherently safe code, with the language itself managing object lifecycles from creation to destruction.
+
+**Automatic Memory Management** : In Rust, the correct amount of memory is allocated for objects and then automatically deallocated by the system when they are no longer needed, streamlining memory management.
+
+### Cargo Package Manager in Rust
+
+**Standardized Package Management**: Unlike system languages such as C and C++, Rust comes with a built-in package manager, Cargo, which centralizes access to a wide range of Rust libraries and frameworks.
+
+**Facilitating Application Development and Code Distribution**: Cargo aids developers in creating impressive applications and simplifies the process of distributing code to end-users, enhancing the overall development workflow in Rust.
+
+### Error Reporting in Rust
+
+**Color-Coded Clarity** : Rust enhances error message visibility by displaying them in color, making them easier to identify and understand.
+
+**Intelligent Suggestions** : The compiler often provides suggestions for fixing formatting errors and typos, offering a more intuitive coding experience.
+
+**Detailed Error Information** : Rust goes beyond just indicating the line with an error; it also specifies the error type, aiding in quicker and more effective debugging.
+
+### Efficient C Binding 
+
+**C Language Interoperability**: Rust supports seamless integration with C, featuring a foreign function interface (FFI) that allows communication with C APIs.
+
+**Memory Safety Assurance**: Thanks to its stringent ownership rules, Rust ensures memory safety even when interfacing with C, enhancing reliability and security.
 
 
-#### Cargo Manager 
+#### Fearless Concurrancy without Data Races
 
-- System languages like C and C++ never had a standard package manager. Rust provides a cargo manager that has all the
-
-- rust libraries and frameworks to not only help developers make fantastic applications, but also distribute code to end-users.
-
-##### Error Messages 
-
-The error messages in Rust are displayed using color. Formatting and misspellings in the program are commonly suggested.
-It not only displays the line which has the error but, also the type of error.
-
-#### Efficient C Binding 
-
-The Rust language can interoperate with the C language. It provides a foreign function interface to communicate with C API’s. 
-Due to its ownership rules, it can guarantee memory safety.
-
-
-#### Threads without Data Races 
-
-Data race is a condition where two or more threads can access the same memory location. Rust uses the concept of ownership to avoid data races.
+**Preventing Data Races** : Rust effectively prevents data races, a scenario where multiple threads access the same memory location simultaneously, by employing its unique ownership model
 
 
 #### To start, You'll need to install Rust
