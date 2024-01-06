@@ -11,17 +11,17 @@ hero:
     filename:
       desktop: "gradient-desktop.webp"
       mobile: "gradient-mobile.webp"
-#1349x768
+
   badge:
     text: v0.0.0
     color: primary # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
 
-  titleLogo:
-  path: "images/logos"
-  filename: "title_ruslabs.png"
-  height: 100px
+  # titleLogo:
+  # path: "images/logos"
+  # filename: "logo.svg"
+ # height: 80px
 
   title: "RustLabs"
   subtitle:  "RustLabs is a collection of simple and easy to follow Rust language code examples."
@@ -33,10 +33,11 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  ctaButton:
-    icon: rocket_launch
-    btnText: "Get Started"
-    url: "https://rustlabs.github.io/docs/"
+  # ctaButton:
+   # icon: rocket_launch
+   # btnText: "Get Started"
+   # url: "/docs/"
+
   cta2Button:
     icon: chat
     btnText: "CloudNativeFolks Community "
