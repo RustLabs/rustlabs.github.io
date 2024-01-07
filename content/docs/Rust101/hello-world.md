@@ -12,12 +12,18 @@ It's universal truth everybody starts their journey with the hello world program
 create ***hello.rs*** file with the following content :
 
 
-```rust
-fn main() {
+<!-- code snippet -->
+<pre>fn main() {
     println!("Hello World!");
-}
+}</pre>
 
-```
+<!-- playground widget attaches to the previous snippet -->
+<codapi-snippet sandbox="rust" editor="basic">
+</codapi-snippet>
+
+<!-- playground script -->
+<script src="https://unpkg.com/@antonz/codapi/dist/snippet.js">
+</script>
 
 *   functions are defined using fn the name of this function in main.
     
