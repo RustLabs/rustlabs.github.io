@@ -5,6 +5,30 @@ icon: "👋"
 page: true
 ---
 
+{{% alert icon="⌨️" context="success" %}}
+Setting up a Rust development environment involves several steps. Here's a pre-request list to get you started:
+
+1. **Install Rust:**
+Use rustup, the Rust toolchain installer. It manages Rust versions and associated tools for you.
+2. **Configure Your Environment:**
+Ensure that the Rust installation is added to your system's PATH.
+Set up your preferred text editor or IDE with Rust support. Popular choices include Visual Studio Code, IntelliJ IDEA, and others with Rust plugins or extensions.
+3. **Install Essential Tools:**
+cargo: Rust's package manager and build system, typically installed with Rust.
+rustfmt: A tool for formatting Rust code according to style guidelines.
+clippy: A collection of lints to catch common mistakes and improve your Rust code.
+4. **Clone The Repo** 
+```
+gh repo clone RustLabs/RustLabs-Workshop
+```
+
+ <a href="https://github.com/RustLabs/RustLabs-Workshop"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/RustLabs/RustLabs-Workshop.png" width="460px"></a>
+
+🌟 star the repo for supporting 🙏
+
+{{% /alert %}}
+
+
 ### Getting Started with "Hello, World! "
 
 It's universal truth everybody starts their journey with the hello world program.
@@ -25,16 +49,15 @@ create ***hello.rs*** file with the following content :
 <script src="https://unpkg.com/@antonz/codapi/dist/snippet.js">
 </script>
 
-*   functions are defined using fn the name of this function in main.
-    
-*   `println` is a micro and will print txt to STDOUT.
-    
-*   the body of the program is enclosed in curly braces.
 
+* In Rust, functions are declared using the fn keyword followed by the function's name. For instance, the main function is the entry point of a Rust program.
 
-rust will automatically start in the main function. function parameter appears inside the parentheses that follow the name of the function. because there is no argument lists in `main()` . the function takes no arguments.
+* println! is a macro, not a function, and is used for printing text to the standard output (STDOUT). The exclamation mark distinguishes it as a macro.
+The program's code, including the main function, is enclosed within curly braces {}.
 
-to run this program, you must first use rust compiler, **rustc** to compile the code.
+* In Rust, execution begins with the main function. If a function has parameters, they are specified within parentheses () after the function's name. The main function in the standard format, with () and no parameters, indicates that it does not accept any arguments.
+
+* To execute a Rust program, you need to compile it first. This is done using the Rust compiler, rustc. After compilation, an executable is generated which can be run to execute the program
 
 ```rust
 $ rustc hello.rs
@@ -107,7 +130,7 @@ locale: en
 <br>
 
 
-#### Organizing a Rust Project :
+### Organizing a Rust Project :
 
 for any project, we all write multiple source files and execute them as a single binary. let's remove our existing hello binary `rm hello`
 
@@ -143,21 +166,21 @@ A macro is an expression that has
 an exclamation mark (!) before the parenthesis () , i.e.,
 
 
-                                 macro_name ! ( );
+``` macro_name ! ( );```
                                  
-# What are macros used for?
+### What are macros used for?
 
-They are used in metaprogramming, i.e., code that writes code. They look like functions in other system programming languages like C and C++, but instead of generating a function call like functions, they are expanded into source code that gets compiled with the rest of the program. In this way, they provide more run-time features.     
-
-
-![](https://raw.githubusercontent.com/sangam14/RustLabs/master/img/metaprogram.png)
-
-# Types of Macros
-
-Rust provides us with some built-in macros, like the println!() above, and users can define their own macros as well.
+Macros in Rust are powerful tools for metaprogramming, which involves writing code that generates other code. Unlike functions in languages such as C or C++, macros don't result in function calls. Instead, they expand into source code that is then compiled along with the rest of the program. This approach allows for additional runtime capabilitie     
 
 
-For now, the information above will suffice, but more details on macros will be covered in the advanced track 
+![](/img/metaprogram.png)
+
+### Types of Macros
+
+An example of a built-in macro in Rust is ```println!```, which is used for printing output. Rust also allows users to define their own custom macros.
+
+
+While this overview provides a basic understanding of macros, more in-depth information on this topic is available in advanced Rust programming resources.
 
 
 
