@@ -121,7 +121,7 @@ locale: en
   ```
  
   - [ ]  Hello World! \n
-         Hello
+         Hello       
   - [X] error
 
 
